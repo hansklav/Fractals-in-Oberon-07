@@ -29,7 +29,7 @@ MODULE H1;  (* hk  17 May 2024 *)
     Gr.SetCoords(-2.0, -1.5, 2.0, 1.5);
     c := Math.sqrt(0.5);
     x[1] := 0.0;  y[1] := 0.0;
-    FOR m := 0 TO P-1 DO
+    FOR m := 0 TO P - 1 DO
       s := m MOD 2;
       beg := IntPower(2, m);
       end := IntPower(2, m+1) - 1;
