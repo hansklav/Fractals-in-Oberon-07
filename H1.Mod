@@ -1,20 +1,20 @@
 MODULE H1;  (* hk  17 May 2024 *)
-(* Fractal on letter H. After a BASIC program 'BoomH1' from: Hans Lauwerier, Fractals, 1988 *)
+(* Shows the H-fractal. After a BASIC program 'BoomH1' from: Hans Lauwerier, Fractals, 1988 *)
 
   IMPORT Math, XY := XYplane, Gr := XYgraphics;
 
   CONST 
-    P = 10;     (* order of the H fractal; try 11 or smaller *)
+    P = 10;    (* order of the H fractal; try 11 or smaller *)
     white = Gr.white;
 
   VAR 
-    c,          (* contraction ratio: sqrt(2) *)
+    c,         (* contraction ratio: sqrt(2) *)
     cM: REAL;  (* c^m, so c^2 = 1/2, etc. *)
  
   PROCEDURE Do* ;
 
     VAR s, m, n, beg, end: INTEGER;
-      x: ARRAY 4096 OF REAL;          (* for P < 12 *)
+      x: ARRAY 4096 OF REAL;        (* for P < 12 *)
       y: ARRAY 4096 OF REAL;
 
     PROCEDURE IntPower(n, e: INTEGER): INTEGER;  (* simplistic n^e *)
@@ -36,11 +36,11 @@ MODULE H1;  (* hk  17 May 2024 *)
       FOR n := beg TO end DO
         IF s = 1 THEN
           cM := Math.power(c, FLT(m));
-          x[2*n]       := x[n];   y[2*n]       := y[n] + cM;
+          x[2*n]     := x[n];   y[2*n]     := y[n] + cM;
           x[2*n + 1] := x[n];   y[2*n + 1] := y[n] - cM
         ELSE
           cM := Math.power(c, FLT(m));
-          x[2*n]       := x[n] + cM;   y[2*n]       := y[n];
+          x[2*n]     := x[n] + cM;   y[2*n]     := y[n];
           x[2*n + 1] := x[n] - cM;   y[2*n + 1] := y[n]
         END
       END
