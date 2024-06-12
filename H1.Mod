@@ -10,7 +10,7 @@ MODULE H1;  (* hk  17 May 2024 *)
 
   VAR
     order: INTEGER;
-    c,                   (* contraction ratio: sqrt(2) *)
+    c,                   (* contraction ratio: sqrt(1/2) *)
     cM: REAL;            (* c^m, so c^2 = 1/2, etc. *)
  
   PROCEDURE Do* ;
