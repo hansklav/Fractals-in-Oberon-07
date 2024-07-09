@@ -13,7 +13,7 @@ MODULE Dragon1;  (* hk  16 June 2024 *)               (* Dragon1.Do 10   ORP.Com
     p: REAL;  (* order of curve (exponent for power of 2) *)
 
   PROCEDURE REM (D, d: INTEGER): INTEGER;
-  (* Remainder of Euclidean division 
+  (* Remainder of Euclidean division D/d
      (as opposed to remainder of FLOORed division, which is given by Oberon's MOD) *)
   RETURN (ORD(D > 0) - ORD(D < 0)) * (ABS(D) MOD ABS(d))
   END REM;
