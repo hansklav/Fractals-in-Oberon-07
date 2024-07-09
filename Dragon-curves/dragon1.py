@@ -1,4 +1,4 @@
-# Dragon curve with rounded corners (hk  19 June 2024)
+# Python source for Dragon curves with rounded corners (hk  19 June 2024)
 # After a BASIC program 'DRAAK1' from: Hans Lauwerier, Fractals, 1988
 # See: https://en.wikipedia.org/wiki/Dragon_curve
 
