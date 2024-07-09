@@ -1,7 +1,7 @@
 # Dragon curves with rounded corners
 
 Dragon1.Mod contains Oberon source code for dragon curves with rounded corners in the Oberon System. <br>
-You can give the command Dragon1.Do an optional integer argument to determine the order of the curve.
+The command Dragon1.Do accepts an optional integer argument to determine the order of the curve.
 
 The module makes use of XYgraphics.Mod (in this repo) and also of XYplane.Mod and Math.Mod (in my repo Oberon-07).
 
