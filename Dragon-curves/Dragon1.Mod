@@ -24,7 +24,7 @@ MODULE Dragon1;  (* hk  16 June 2024 *)               (* Dragon1.Do 10   ORP.Com
   BEGIN
     In.Open;  In.Int(pInt);  (* order of curve: any integer in {1..19}; numbers > 19 take some time *)
     IF ~In.Done THEN p := 9.0 ELSE p := FLT(pInt) END; 
-    XY.OpenH(478);  (* 4:3 aspect ratio *)
+    XY.OpenH(479);  (* 4:3 aspect ratio *)
     XY.Clear;
     Gr.SetCoords(-0.7, -1.1, 1.7, 0.7);
     h := Math.power(2.0, -p/2.0);  s := 0;
