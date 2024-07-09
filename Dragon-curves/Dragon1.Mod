@@ -35,7 +35,7 @@ MODULE Dragon1; (* hk  16 June 2024 *)               (* Dragon1.Do 10   ORP.Comp
     WHILE n <= FLOOR(end) DO m := n;
       WHILE m MOD 2 = 0 DO m := m DIV 2 END;
       IF m MOD 4 = 1 THEN d := 1 ELSE d := -1 END;  (* direction: 1 = left,  -1 = right *)
-    (* s := (s + d) MOD 4; *)
+   (* s := (s + d) MOD 4; *)
       s := REM(s + d, 4);
       x2 := x1 + h * Math.cos((FLT(s) - p/2.0) * pi/2.0);
       y2 := y1 + h * Math.sin((FLT(s) - p/2.0) * pi/2.0);
