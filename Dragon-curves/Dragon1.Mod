@@ -1,6 +1,6 @@
-MODULE Dragon1; (* hk  16 June 2024 *)               (* Dragon1.Do 10   ORP.Compile *   System.Free Dragon1 ~ *)
+MODULE Dragon1;  (* hk  16 June 2024 *)               (* Dragon1.Do 10   ORP.Compile *   System.Free Dragon1 ~ *)
 (* Dragon curve with rounded corners.
-  After a BASIC program 'DRAAK1' from: Hans Lauwerier, Fractals, 1988 *)
+   After a BASIC program 'DRAAK1' from: Hans Lauwerier, Fractals, 1988 *)
 
   IMPORT Math, In, XY := XYplane, Gr := XYgraphics;
   
