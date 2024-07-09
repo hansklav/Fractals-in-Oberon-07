@@ -1,7 +1,6 @@
 # Dragon curve with rounded corners; Python/tkinter implementation (hk  19 June 2024)
 # After a BASIC program 'DRAAK1' from: Hans Lauwerier, Fractals, 1988
 # See: https://mathworld.wolfram.com/DragonCurve.html
-# Is NOT faster than the list version.
 
 from graphics import GraphWin, Point, Line  # https://mcsp.wartburg.edu/zelle/python/
 from math     import cos, sin
