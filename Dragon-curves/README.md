@@ -15,4 +15,6 @@ Be sure to use the corrected [Math.ln(x)](https://github.com/hansklav/Oberon-07-
 
 ![Screenshot](Dragon1b.png)
 
+![Screenshot](Dragon1c.png)
+
 <br>
