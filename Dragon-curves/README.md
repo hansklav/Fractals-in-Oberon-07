@@ -10,8 +10,8 @@ Be sure to use the corrected [Math.ln(x)](https://github.com/hansklav/Oberon-07-
 There is still a problem with orders that are even numbers < 14 (e.g. see the second screenshot below for order 10).<br>
 Even number orders ≥ 14 do produce recognizable drawings, but only half the size (actually they more resemble labradoodles than dragons ;-)
 
-To analyse this problem I implemented the same algorithm in Python, and there correct dragons of all orders are drawn (albeit much slower than in Oberon).<br>
-For reference I also added the original BASIC source by Hans Lauwerier.
+To analyse this problem I implemented the same algorithm in Python (dragon1.py), and there correct dragons of all orders are drawn (albeit much slower than in Oberon).<br>
+For reference I also added the original BASIC source by Hans Lauwerier (DRAAK1.BAS).
 <br>
 
 ![Screenshot](Dragon1a.png)
