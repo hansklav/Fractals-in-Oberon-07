@@ -1,6 +1,6 @@
 # Dragon curves with rounded corners
 
-[Dragon curves](https://en.wikipedia.org/wiki/Dragon_curve) are interesting space filling curves that you can approximate by endlessly folding a slip of paper. Apparently I'm not the only one who is fascinated by them; [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) has one decorating a wall in his home: https://www.youtube.com/watch?v=v678Em6qyzk (and yes, it has a bug).
+[Dragon curves](https://mathworld.wolfram.com/DragonCurve.html) are interesting space filling curves that you can approximate by endlessly folding a slip of paper. Apparently I'm not the only one who is fascinated by them; [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) has one decorating a wall in his home: https://www.youtube.com/watch?v=v678Em6qyzk (and yes, it has a bug).
 
 Dragon1.Mod contains Oberon source code for dragon curves with rounded corners in the Oberon System. <br>
 The command Dragon1.Do accepts an optional integer argument to determine the order of the curve.
