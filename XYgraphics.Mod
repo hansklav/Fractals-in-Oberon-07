@@ -15,10 +15,10 @@ MODULE XYgraphics;  (* IN V5 *)  (* hk 12 May 2024, 13 July 2024 *)
     END;
 
   VAR
-    xLL, yLL,                      (* lower left World coordinates *)
-    xUR, yUR: REAL;         (* upper right World coordinates *)
+    xLL, yLL,              (* lower left World coordinates *)
+    xUR, yUR: REAL;        (* upper right World coordinates *)
     scaleX, scaleY: REAL;  (* scale factors for coordinate transformations *)
-    xt, yt: REAL;                (* temporary variables for LineTo *)
+    xt, yt: REAL;          (* temporary variables for LineTo *)
 
 (* ----- Coordinate transformation ----- *)   
 
