@@ -1,4 +1,4 @@
-MODULE Dragon1;  (* hk  13 July 2024 *)       (* Dragon.Do 8 *)
+MODULE Dragon1;  (* hk  13 July 2024 *)       (* Dragon.Do 9 *)
 (* Dragon curve with rounded corners
   - version with XYgraphics.LineToF( )
   - 'tail' of dragon (= start of curve) improved
@@ -54,5 +54,5 @@ MODULE Dragon1;  (* hk  13 July 2024 *)       (* Dragon.Do 8 *)
     END
   END Do;
  
-END Dragon.Do 4
+END Dragon.Do 3
 
