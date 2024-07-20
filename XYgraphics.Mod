@@ -283,7 +283,7 @@ MODULE XYgraphics;  (* IN V5 *)  (* hk 12 May 2024, 13 July 2024 *)
   END LineF;
 
 
-(* ----- GoToF and LineToF -------- *)
+(* ----- MoveToF and LineToF -------- *)
 
   PROCEDURE MoveToF* (x, y: REAL);
   (* Sets the screen position to (x, y) *)
