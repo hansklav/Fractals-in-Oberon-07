@@ -2,7 +2,7 @@
 
 [Dragon curves](https://mathworld.wolfram.com/DragonCurve.html) are interesting space filling curves that you can approximate by endlessly folding a slip of paper. Apparently I'm not the only one who is fascinated by them; [Donald Knuth](https://en.wikipedia.org/wiki/Donald_Knuth) has one decorating a wall in his home: https://www.youtube.com/watch?v=v678Em6qyzk (and yes, it has a bug).
 
-Dragon and Dragon1.Mod contain Oberon source code for dragon curves in the Oberon System. <br>
+Dragon.Mod and Dragon1.Mod contain Oberon source code for dragon curves in the Oberon System. <br>
 The commands Dragon.Do and Dragon1.Do accept an optional integer argument to determine the order of the curve.
 The paper folding can best be seen in the simpler version Dragon.Mod. 
 Dragon1.Mod is for dragon curves with rounded corners like the one on the tile wall in Donald Knuth's home.
