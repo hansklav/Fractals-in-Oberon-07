@@ -1,6 +1,6 @@
 MODULE Evolvent;  (* hk  21 July 2024 *)
 (* Evolvent spiral (a.k.a. Involute of a circle). Version with XYgraphics.LineToF().
-  The command Evolvent.Do accepts a REAL parameter 0.1...1.3 for the radius of the circle..
+  The command Evolvent.Do accepts a REAL parameter 0.1 ... 1.3 for the radius of the circle.
   After a BASIC program 'WIKKEL' from: Hans Lauwerier, Fractals, 1988 *)
 
   IMPORT Math, In, Out, XY := XYplane, Gr := XYgraphics;
