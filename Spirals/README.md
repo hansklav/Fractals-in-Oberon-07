@@ -8,10 +8,10 @@ Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named
 <blockquote style="font-family:monospace">r = a·φ</blockquote>
 The grooves of a gramophone record and the turns of a rolled ribbon are examples of Archimedean spirals.
 The modules ArchiSpiral0.Mod and ArchiSpiral.Mod are based on ARCHI.BAS.
-<br><br>
+<br/><br/>
 Another kind of spiral is the [Circle Involute](https://mathworld.wolfram.com/CircleInvolute.html) a.k.a. Circle Evolvent (Dutch: 'wikkellijn, afwikkelkromme'). It can be constructed by the end of an unwinding string wound around a cilinder.
 See WIKKEL.BAS and Evolvent.Mod.
-<br><br>
+<br/><br/>
 The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius <span style="font-family:monospace">r</span> changes linearly with the arc <span style="font-family:monospace">φ</span>:
 
 <blockquote style="font-family:monospace">ln(r) = a·φ</blockquote>
