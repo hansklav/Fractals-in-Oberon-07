@@ -5,9 +5,11 @@ just like fractals.
 
 Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named after him: the 
 [Archimedean or Arithmetic Spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius r changes linearly with the arc φ:
-......
+
+...
 r = a·φ
-......
+...
+
 The grooves of a gramophone record and the turns of a rolled ribbon are examples of Archimedean spirals.
 The modules ArchiSpiral0.Mod and ArchiSpiral.Mod are based on ARCHI.BAS.
 
