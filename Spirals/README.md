@@ -12,16 +12,10 @@ The modules ArchiSpiral0.Mod and ArchiSpiral.Mod are based on ARCHI.BAS.
 The [evolvent or involute of a circle](https://proofwiki.org/wiki/Parametric_Equation_of_Involute_of_Circle) (Dutch: 'wikkellijn, afwikkelkromme') is another kind of spiral. It can be constructed by the end of an unwinding string wound around a cilinder.
 See WIKKEL.BAS and Evolvent.Mod.
 
-The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius `r` changes linearly with the arc `φ`:
-```
-  ln(r) = a·φ
-```
-In the program we use an equivalent equation to calculate `r`:
-```
-  r = exp(a·φ)
-```
+The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius <span style="font-family:monospace">r</span> changes linearly with the arc <span style="font-family:monospace">φ</span>:
 
+<blockquote style="font-family:monospace">ln(r) = a·φ</blockquote>
 
+In the program we use an equivalent equation to calculate <span style="font-family:monospace">r</span>:
 
-
-
+<blockquote style="font-family:monospace">r = exp(a·φ)</blockquote>
