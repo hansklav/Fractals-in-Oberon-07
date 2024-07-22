@@ -1,10 +1,7 @@
 # Several types of Spirals
 
-Although spirals aren't fractals both are seen in living and lifeless nature, e.g. in ammonites and galaxies. Many spirals have self-similar properties, 
+Although spirals aren’t fractals both are seen in living and lifeless nature, e.g. in ammonites and galaxies. Many spirals have self-similar properties, 
 just like fractals. 
-
-the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which
-the [Circle Involute](https://mathworld.wolfram.com/CircleInvolute.html) a.k.a. Circle
 
 Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named after him: the 
 [Archimedean or Arithmetic Spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius r changes linearly with the arc φ:
