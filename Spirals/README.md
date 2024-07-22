@@ -4,7 +4,7 @@ Although spirals aren't fractals both are seen in living and lifeless nature, e.
 just like fractals. 
 
 Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named after him: the 
-[Archimedean or arithmetic spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius `r` changes linearly with the arc `φ`:
+[Archimedean or arithmetic spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius <code>r</code> changes linearly with the arc <code>φ</code>:
 ```
   r = a·φ
 ```
