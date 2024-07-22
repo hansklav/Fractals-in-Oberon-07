@@ -3,10 +3,6 @@ MODULE LogSpiral; (* hk  22 July 2024 *)
    After a BASIC program 'LOGSPIRA' from: Hans Lauwerier, Fractals, 1988 *)
 
   IMPORT Math, In, XY := XYplane, Gr := XYgraphics;
-
-  CONST 
-    pi = 3.1415926535;
-    white = Gr.white;
  
   PROCEDURE Do* ;
     CONST 
@@ -23,7 +19,7 @@ MODULE LogSpiral; (* hk  22 July 2024 *)
       r := a * Math.exp(b * t);
       x := r * Math.cos(t);
       y := r * Math.sin(t);
-      Gr.LineToF(x, y, white);
+      Gr.LineToF(x, y, Gr.white);
       t := t + 0.1
     END
   END Do;
