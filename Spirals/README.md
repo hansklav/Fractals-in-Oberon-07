@@ -1,6 +1,6 @@
 # Several types of Spirals
 
-Although spirals aren’t fractals both are seen in living and lifeless nature, e.g. in ammonites and galaxies. Many spirals have self-similar properties, 
+Although spirals aren't fractals both are seen in living and lifeless nature, e.g. in ammonites and galaxies. Many spirals have self-similar properties, 
 just like fractals. 
 
 Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named after him: the 
