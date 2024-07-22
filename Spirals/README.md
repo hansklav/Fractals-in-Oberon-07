@@ -24,3 +24,4 @@ In the program we use an equivalent equation to calculate <span style="font-fami
 <blockquote style="font-family:monospace">r = exp(a·φ)</blockquote>
 
 Logarithmic spirals are self-similar: they look the same at every scale. The Swiss mathematician Jacob Bernoulli (1654-1705) was so impressed by this property that he called this type of spiral <i>spira mirabilis</i> (wonderful spiral).
+See LOGSPIRA.BAS and LogSpiral.Mod.
