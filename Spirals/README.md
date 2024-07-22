@@ -11,6 +11,7 @@ r = a·φ
 The grooves of a gramophone record and the turns of a rolled ribbon are examples of Archimedean spirals.
 The modules ArchiSpiral0.Mod and ArchiSpiral.Mod are based on ARCHI.BAS.
 
+
 The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius r changes linearly with the arc φ:
 
 ln(r) = a·φ
@@ -22,5 +23,6 @@ r = exp(a·φ)</p>
 Logarithmic spirals are self-similar: they look the same at every scale. The Swiss mathematician Jacob Bernoulli (1654-1705) was so impressed by this property that he called this type of spiral <i>spira mirabilis</i> (wonderful spiral).
 See LOGSPIRA.BAS and LogSpiral.Mod.
 
-Another kind of spiral is the [Circle Involute](https://mathworld.wolfram.com/CircleInvolute.html) a.k.a. Circle Evolvent (Dutch: 'wikkellijn, afwikkelkromme'). It can be constructed by the end of an unwinding string wound around a cilinder.
+
+Another kind of spiral is the [circle involute](https://mathworld.wolfram.com/CircleInvolute.html) a.k.a. circle evolvent (Dutch: 'wikkellijn, afwikkelkromme'). It can be constructed by the end of an unwinding string wound around a cilinder.
 See WIKKEL.BAS and Evolvent.Mod.
