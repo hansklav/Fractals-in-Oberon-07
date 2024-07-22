@@ -4,18 +4,24 @@ Although spirals aren't fractals both are seen in living and lifeless nature, e.
 just like fractals. 
 
 Already Archimedes (287-212 BCE) studied spirals and one kind of spiral is named after him: the 
-[Archimedean or arithmetic spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius r changes linearly with the arc φ: 
-  r = a·φ 
+[Archimedean or arithmetic spiral](https://en.wikipedia.org/wiki/Archimedean_spiral), in which the radius `r` changes linearly with the arc `φ`:
+```
+  r = a·φ
+```
 The grooves of a gramophone record and the turns of a rolled ribbon are examples of Archimedean spirals.
 The modules ArchiSpiral0.Mod and ArchiSpiral.Mod are based on ARCHI.BAS.
 
 The [evolvent or involute of a circle](https://proofwiki.org/wiki/Parametric_Equation_of_Involute_of_Circle) (Dutch: 'wikkellijn, afwikkelkromme') is another kind of spiral. It can be constructed by the end of an unwinding string wound around a cilinder.
 See WIKKEL.BAS and Evolvent.Mod.
 
-The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius r changes linearly with the arc φ:
+The most abundant spiral in nature is the [growth spiral or logarithmic spiral](https://en.wikipedia.org/wiki/Logarithmic_spiral), in which the logarithm of the radius `r` changes linearly with the arc `φ`:
+```
   ln(r) = a·φ
-In the program we use an equivalent equation to calculate r:
+```
+In the program we use an equivalent equation to calculate `r`:
+```
   r = exp(a·φ)
+```
 
 
 
