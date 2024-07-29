@@ -15,27 +15,23 @@ MODULE Evolvent;  (* hk  21 July 2024 *)
 			n, t, x, y: REAL;
 	BEGIN
 		In.Open;	In.Real(r);
-		IF ~In.Done OR (r < 0.05) THEN
-			Out.String("Input: 0.0 < r <= 1.3;  r now has the default value 1.0"); Out.Ln;
+		IF ~In.Done OR (r < 0.05) OR (r > 1.3) THEN
+			Out.String("Input: 0.05 <= r <= 1.3;  r now has the default value 1.0"); Out.Ln;
 			r := 1.0
 		END;
-		IF r <= 1.3 THEN
-			XY.OpenH(XY.ar11 + 17);  (* with + 17 the tangents are drawn more flush with the circle *)
-			XY.Clear;
-			Gr.SetCoords(-6.0,-8.0, 10.0, 8.0);
-			Gr.Circle(0.0, 0.0, r);
-			Gr.MoveToF(r, 0.0);
-			n := 0.0;
-			WHILE n < 100.0 DO
-				t := 2.0 * pi * n / 80.0;
-				x := r * (Math.cos(t) + t * Math.sin(t));
-				y := r * (Math.sin(t) - t * Math.cos(t));
-				Gr.LineToF(x, y, white);  (* evolvent *)
-				IF FLOOR(n) MOD 10 = 0 THEN Gr.LineF(r * Math.cos(t), r * Math.sin(t), x, y, white) END;  (* tangents *)
-				n := n + 1.0
-			END
-		ELSE
-			Out.String("Parameter error: r is at most 1.3"); Out.Ln
+		XY.OpenH(XY.ar11 + 17);  (* with + 17 the tangents are drawn more flush with the circle *)
+		XY.Clear;
+		Gr.SetCoords(-6.0,-8.0, 10.0, 8.0);
+		Gr.Circle(0.0, 0.0, r);
+		Gr.MoveToF(r, 0.0);
+		n := 0.0;
+		WHILE n < 100.0 DO
+			t := 2.0 * pi * n / 80.0;
+			x := r * (Math.cos(t) + t * Math.sin(t));
+			y := r * (Math.sin(t) - t * Math.cos(t));
+			Gr.LineToF(x, y, white);  (* evolvent *)
+			IF FLOOR(n) MOD 10 = 0 THEN Gr.LineF(r * Math.cos(t), r * Math.sin(t), x, y, white) END;  (* tangents *)
+			n := n + 1.0
 		END
 	END Do;
 
