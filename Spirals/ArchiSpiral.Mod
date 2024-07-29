@@ -12,7 +12,7 @@ MODULE ArchiSpiral;  (* hk  13 July 2024 *)
   PROCEDURE Do* ;
     VAR r, t, x, y: REAL;
   BEGIN
-    XY.OpenH(XY.square);  XY.Clear;
+    XY.OpenH(XY.ar11);  XY.Clear;
     Gr.SetCoords(-9.0, -9.0, 9.0, 9.0);
     Gr.MoveToF(0.0, 0.0);
     t := 0.0;
