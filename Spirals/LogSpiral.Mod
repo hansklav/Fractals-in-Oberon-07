@@ -11,7 +11,7 @@ MODULE LogSpiral; (* hk  22 July 2024 *)
     VAR 
       r, t, x, y: REAL;
   BEGIN
-    XY.OpenH(XY.square);  XY.Clear;
+    XY.OpenH(XY.ar43);  XY.Clear;
     Gr.SetCoords(-4.0, -3.0, 4.0, 3.0);
     Gr.MoveToF(a, 0.0);
     t := 0.0;
