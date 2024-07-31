@@ -7,7 +7,7 @@ MODULE Koch; (* hk  30 July 2024 *)  (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Co
 
 	CONST P = 6;	(* Default order of the Koch curve (and maximum in Oberon System V5) *)
 	
-	PROCEDURE IntPow (n, e: INTEGER): INTEGER;  (* Compute n^e;  e > 0 *)
+	PROCEDURE IntPow (n, e: INTEGER): INTEGER;  (* Compute n^e;  e >= 0 *)
 		VAR p: INTEGER;
 	BEGIN p := 1;
 		WHILE e > 0 DO
