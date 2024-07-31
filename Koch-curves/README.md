@@ -1,4 +1,4 @@
-# Von Koch's curve in several orders
+# Von Koch’s curve in several orders
 
 In 1904 the Swedish mathematician [Helge von Koch](https://mathshistory.st-andrews.ac.uk/Biographies/Koch/) published about a curve without tangents,
 for the mathematicians of that period a shocking finding.
