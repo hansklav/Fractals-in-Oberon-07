@@ -34,13 +34,9 @@ MODULE Koch; (* hk  30 July 2024 *) (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Com
 		Gr.MoveToF(0.0, 0.0);
 		FOR n := 0 TO IntPow(4, p) - 1 DO
 			(* Notation in quarterly (base 4) system *)
-			m := n;
-			FOR L := 0 TO p-1 DO T[L] := m MOD 4; m := m DIV 4 END;
+			m := n;  FOR L := 0 TO p-1 DO T[L] := m MOD 4; m := m DIV 4 END;
 			(* Determinination of direction of line segment n *)
-			s := 0;
-			FOR k := 0 TO p-1 DO
-				s := s + (T[k]+1) MOD 3 - 1
-			END;
+			s := 0;  FOR k := 0 TO p-1 DO s := s + (T[k]+1) MOD 3 - 1 END;
 			(* Drawing of line segment n *)
 			x := x + Math.cos( pi*FLT(s)/3.0 ) * h;
 			y := y + Math.sin( pi*FLT(s)/3.0 ) * h;
