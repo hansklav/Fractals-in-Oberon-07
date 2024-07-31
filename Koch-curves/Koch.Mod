@@ -1,4 +1,4 @@
-MODULE Koch; (* hk  30 July 2024 *) (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Compile*   System.Free Koch ~ *)
+MODULE Koch; (* hk  30 July 2024 *)  (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Compile*   System.Free Koch ~ *)
 (* Draws several orders of the Koch curve, one of the first fractals, 
 	 described by the Swedish mathematician Helge von Koch (1904). 
 	 After a BASIC program 'KOCH' from: Hans Lauwerier, Fractals, 1988 *)
