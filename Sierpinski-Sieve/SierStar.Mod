@@ -1,5 +1,5 @@
 MODULE SierStar; (* hk  31 July 2024 *)
-(* Prints ASCII star versions of the Sierpinski triangle *)
+(* Prints ASCII star versions of the Sierpinski triangle; for Oberon System V5 *)
 
 	IMPORT S := SYSTEM, In, Out; 
 	
