@@ -1,11 +1,11 @@
-MODULE Koch; (* hk  30 July 2024 *)  (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Compile*   System.Free Koch ~ *)
+MODULE Koch; (* hk  30 July 2024 *)  (* Koch.Do^  0 1 2 3 4 5 6 7 8 9 10 100   ORP.Compile*   System.Free Koch ~ *)
 (* Draws several orders of the Koch curve, one of the first fractals, 
 	 described by the Swedish mathematician Helge von Koch (1904). 
 	 After a BASIC program 'KOCH' from: Hans Lauwerier, Fractals, 1988 *)
 
 	IMPORT Math, In, XY := XYplane, Gr := XYgraphics;
 
-	CONST P = 6;	(* Default order of the Koch curve (and maximum in Oberon System V5) *)
+	CONST P = 10;	(* Maximum order of curve *)
 	
 	PROCEDURE IntPow (n, e: INTEGER): INTEGER;  (* Compute n^e;  e >= 0 *)
 		VAR p: INTEGER;
@@ -22,7 +22,7 @@ MODULE Koch; (* hk  30 July 2024 *)  (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Co
 			pi = Math.pi;
 			white = Gr.white;
 		VAR 
-			T: ARRAY P OF INTEGER;
+			T: ARRAY P+1 OF INTEGER;
 			k, L, m, n, p, s: INTEGER;
 			h, x, y: REAL;
 	BEGIN
