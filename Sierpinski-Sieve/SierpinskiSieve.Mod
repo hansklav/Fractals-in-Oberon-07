@@ -1,10 +1,10 @@
-MODULE SierpinskiSieve; (* hk  30 July 2024 *)	(* SierpinskiSieve.Do^ 0 1 2 3 4 5 6 7 8 9 10 20	   ORP.Compile *)
+MODULE SierpinskiSieve; (* hk  30 July 2024 *)	(* SierpinskiSieve.Do^ 0 1 2 3 4 5 6 7 8 9 20	   ORP.Compile *)
 (* Sierpinski Sieve, by the Polish mathematician Waclaw Sierpinski (1882-1969).
 	 After a BASIC program 'SIER' from: Hans Lauwerier, Fractals, 1988 *)
 
 	IMPORT Math, In, XY := XYplane, Gr := XYgraphics;
 
-	CONST P = 10;
+	CONST P = 9;
 
 	PROCEDURE IntPow (n, e: INTEGER): INTEGER;  (* Compute n^e;  e >= 0 *)
 		VAR p: INTEGER;
