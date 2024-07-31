@@ -2,7 +2,9 @@ MODULE SierpinskiSieve; (* hk  30 July 2024 *)	(* SierpinskiSieve.Do		ORP.Compil
 (* Sierpinski Sieve, by the Polish mathematician Waclaw Sierpinski (1882-1969).
 	 After a BASIC program 'SIER' from: Hans Lauwerier, Fractals, 1988 *)
 
-	IMPORT Math, XY := XYplane, Gr := XYgraphics;
+	IMPORT Math, In, XY := XYplane, Gr := XYgraphics;
+
+	CONST P = 10;
 
 	PROCEDURE IntPow (n, e: INTEGER): INTEGER;  (* Compute n^e;  e >= 0 *)
 		VAR p: INTEGER;
@@ -18,15 +20,18 @@ MODULE SierpinskiSieve; (* hk  30 July 2024 *)	(* SierpinskiSieve.Do		ORP.Compil
 		CONST
 			pi = 3.1415926535;
 			white = Gr.white;
-			P = 5;
 		VAR 
-			T: ARRAY P OF INTEGER;
+			T: ARRAY P+1 OF INTEGER;
 			k, L, m, n, n1: INTEGER;
 			a, d1, d2, x, y, u1, v1, u2, v2: REAL;
 	BEGIN
+		In.Open;  In.Int(p);
+		IF ~In.Done OR (p < 0) OR (p > P) THEN p := P END;
+
 		XY.OpenH(XY.ar43);  (* 4:3 aspect ratio *)
 		XY.Clear;
 		Gr.SetCoords(-2.6, -2.4, 2.6, 1.5);
+
 		a := Math.sqrt(3.0);
 		FOR m := 0 TO P DO
 			FOR n := 0 TO IntPow(3, m) - 1 DO
