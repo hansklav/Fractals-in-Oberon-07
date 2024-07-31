@@ -30,6 +30,7 @@ MODULE Koch; (* hk  30 July 2024 *) (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Com
 
 		XY.OpenH(XY.ar43);  (* 4:3 aspect ratio *)
 		XY.Clear;	 Gr.SetCoords(-0.1, -0.4, 1.1, 0.5);
+
 		h := Math.power(3.0, FLT(-p));
 		Gr.MoveToF(0.0, 0.0);
 		FOR n := 0 TO IntPow(4, p) - 1 DO
