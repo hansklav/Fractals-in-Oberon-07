@@ -42,8 +42,8 @@ MODULE Koch; (* hk  30 July 2024 *) (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Com
 				s := s + (T[k]+1) MOD 3 - 1
 			END;
 			(* Drawing of line segment n *)
-			x := x + Math.cos(pi*FLT(s)/3.0)*h;
-			y := y + Math.sin(pi*FLT(s)/3.0)*h;
+			x := x + Math.cos( pi*FLT(s)/3.0 ) * h;
+			y := y + Math.sin( pi*FLT(s)/3.0 ) * h;
 			Gr.LineToF(x, y, white)
 		END
 	END Do;
