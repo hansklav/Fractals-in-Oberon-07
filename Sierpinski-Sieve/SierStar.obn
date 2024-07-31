@@ -1,6 +1,7 @@
 MODULE SierStar; (* hk	31 July 2024 *)
 (* Prints ASCII star versions of the Sierpinski triangle; for POSIX consoles *)
-(* See: https://www.geeksforgeeks.org/sierpinski-triangle/ *)
+(* Compile this file with a command line version of the Oberon-07 compiler, e.g. OBNC (https://miasap.se/obnc/) *)
+(* Also see: https://www.geeksforgeeks.org/sierpinski-triangle/ *)
 
 	IMPORT S := SYSTEM, In, Out;
 	
