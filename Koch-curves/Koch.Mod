@@ -24,7 +24,7 @@ MODULE Koch; (* hk  30 July 2024 *) (* Koch.Do^  0 1 2 3 4 5 6  7  100   ORP.Com
 		VAR 
 			T: ARRAY P OF INTEGER;
 			k, L, m, n, p, s: INTEGER;
-			a, h, x, y: REAL;
+			h, x, y: REAL;
 	BEGIN
 		In.Open;  In.Int(p);  IF ~In.Done OR (p < 0) OR (p > P) THEN p := P END;
 
