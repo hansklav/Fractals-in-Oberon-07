@@ -1,6 +1,6 @@
 # Sierpinski’s sieve for Oberon System V5 and the POSIX console
 
-In 1915 the Polish mathematician [Wacław Sierpiński](https://mathshistory.st-andrews.ac.uk/Biographies/Sierpinski/) published about his triangle, which in its limit form has a surface of zero. 
+In 1915 the Polish mathematician [Wacław Sierpiński](https://mathshistory.st-andrews.ac.uk/Biographies/Sierpinski/) published about his triangle, which in its limit form has an area of zero. 
 
 Its algorithm is as follows:
 1. Take a triangle
