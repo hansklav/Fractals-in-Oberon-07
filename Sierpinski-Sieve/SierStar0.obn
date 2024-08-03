@@ -1,0 +1,28 @@
+MODULE SierStar0; (* hk	31 July 2024 *)
+(* The simplest program to print ASCII star versions of the Sierpinski triangle; for POSIX consoles *)
+(* Compile this file with a command line version of the Oberon-07 compiler, e.g. OBNC, https://miasap.se/obnc/ *)
+(* Also see: https://rosettacode.org/wiki/Sierpinski_triangle#Oberon-07 *)
+
+	IMPORT S := SYSTEM, Out;
+	
+	CONST 
+    order = 4;              (* change order for different sizes of the triangle *)
+    size  = LSL(1, order);  (* size = 2^order *)
+	VAR 
+    i, n, x, y: INTEGER;
+
+BEGIN
+	FOR y := n - 1 TO 0 BY -1 DO
+		FOR i := 0 TO y - 1 DO Out.Char(" ") END;
+		x := 0;
+		WHILE x + y < n DO
+			IF ORD(S.VAL(SET, x) * S.VAL(SET, y)) # 0 THEN
+				Out.String("  ")
+			ELSE
+				Out.String("* ")
+			END;
+			INC(x)
+		END;
+    Out.Ln
+	END
+END SierStar0.
