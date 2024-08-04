@@ -8,7 +8,7 @@ Its algorithm is as follows:
 3. Remove the middle triangle
 4. Apply 1.…4. to the remaining triangles
 
-For nice ASCII art in Oberon System you will need the font Courier10.Fnt (in my repo Oberon-07).
+For nice ASCII art in Oberon System you will need the font Courier10.Fnt (in my repo Oberon-07, where you can also find In.Mod and Out.Mod).
 
 ![](SierStar.png)
 
